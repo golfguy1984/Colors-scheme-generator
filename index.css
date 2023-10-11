@@ -2,10 +2,25 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.main-container {
+    margin: auto;
+    width: 800px;
+}
+
+header {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    gap: 10px;
 }
 
 .wrapper {
     display: flex;
+    height: 500px;
 
 }
 
@@ -17,12 +32,12 @@ html, body {
 
 .color-container-default {
     transition: .3s ease-in-out;
-    height: 250px;
+    height: 500px;
 }
 
 .color-container-default:hover {
     transition: .3s ease-in-out;
-    height: 350px;
+    height: 650px;
 }
 
 .color-hex-wrapper {
@@ -33,12 +48,12 @@ html, body {
 
 .color-container {
     transition: .3s ease-in-out;
-    height: 250px;
+    height: 500px;
 }
 
 .color-container:hover {
     transition: .3s ease-in-out;
-    height: 350px;
+    height: 650px;
 }
 
 h1 {
